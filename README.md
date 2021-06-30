@@ -4,7 +4,7 @@ This Project contain separate frontend and backend folders
 
 Frontend contains html, css and js file and deployed on Netlify
 
-Backend stack used Nodejs and Mongodb
+Backend stack uses Nodejs and Mongodb
 Mongodb is deployed on Altas and
 Nodejs is delopyed on Heroku
 
