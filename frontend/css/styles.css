@@ -1,0 +1,77 @@
+
+.heading{
+  font-size: 50px;
+}
+
+.nextline{
+  display : block;
+}
+
+.regularinput{
+  width: 700px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+label{
+  margin-top: 15px;
+}
+
+.btncos{
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  font-weight: bolder;
+  margin-left: 0px;
+}
+
+.lastInput{
+  width: 550px;
+  height: 35px;
+  border-radius: 3px;
+  margin-right: 0px;
+}
+
+.div1{
+  margin-left: 420px;
+  margin-top: 40px;
+}
+
+.memes_section
+{
+  display: flex;
+}
+.meme_card{
+  width: 400px;
+  /* height: 500px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-left: 35%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  padding-top: 1px;
+  /* display: inline; */
+
+}
+.image img{
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.name{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.caption{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.edit_button{
+  background-color: green;
+  color: white;
+}

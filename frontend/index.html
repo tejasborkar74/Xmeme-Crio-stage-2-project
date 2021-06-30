@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Xmeme</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <div class="div1">
+      <h1 class="heading"><strong>Meme Stream</strong></h1>
+      <form>
+          <label class="nextline" for="memeowner">Meme Owner</label>
+          <input id='memeowner' class="nextline regularinput" type="text" name="memeowner" placeholder="Enter your full name" onkeydown="focusNext(event)" autocomplete="off">
+
+          <label class="nextline" for="caption">Caption</label>
+          <input id='caption' class="nextline regularinput" type="text" name="caption" placeholder="Be creative with the caption" onkeydown="focusNext(event)" autocomplete="off">
+
+          <label class="nextline" for="url">Meme URL</label>
+          <input id='url' class="lastInput" type="text" name="meme_url" placeholder="Enter URL of your meme here" onkeydown="focusNext(event)" autocomplete="off">
+
+          <button id="submitButton" class="btncos btn-primary" type="submit" >Submit</button>
+      </form>
+    </div>
+
+    <!-- MEMES SECTION -->
+
+    <div id="memes_section">
+
+      <!-- Here all the memes will we listed dynamically -->
+
+    </div>
+
+
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</html>
